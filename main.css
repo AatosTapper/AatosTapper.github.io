@@ -1,4 +1,40 @@
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: greenyellow;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 0px;
+    width: fit-content;
+    height: auto;
+}
+
+a {
+    margin: 0px;
+}
+
+.main {
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#main-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-header-block {
+    width: 100vw;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-header {
+    margin: 0px;
 }
