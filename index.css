@@ -1,10 +1,23 @@
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    color: #fbefee;
+
+    background-image: url("easter_image.webp");
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(8px) brightness(40%) saturate(130%);
 }
 
 h1 {
     margin: 0px;
+    width: fit-content;
+    height: auto;
+}
+
+h3 {
+    margin: 0px;
+    padding: 10px;
     width: fit-content;
     height: auto;
 }
@@ -16,12 +29,14 @@ p {
 }
 
 button {
-    margin: 10px;
+    margin: 30px;
     padding: 12.5px 30px;
     border: 0px;
     border-radius: 100px;
     background-color: #2ba8fb;
-    color: #ffffff;
+    box-shadow: 0 0 20px rgba(177, 224, 255, 0.108);
+    color: #fbefee;
+    font-size: x-large;
     font-weight: Bold;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -29,12 +44,12 @@ button {
   
 button:hover {
     background-color: #6fc5ff;
-    box-shadow: 0 0 20px #6fc5ff50;
-    transform: scale(1.1);
+    box-shadow: 0 0 20px #6fc5ff36;
+    transform: scale(1.02);
 }
   
 button:active {
-    background-color: #3d94cf;
+    background-color: #3d95cf9c;
     transition: all 0.25s;
     -webkit-transition: all 0.25s;
     box-shadow: none;
@@ -57,7 +72,8 @@ li {
     margin: 0px;
     width: fit-content;
     height: auto;
-    padding-bottom: 5px;
+    font-size: 16px;
+    padding-bottom: 10px;
 }
 
 .main {
@@ -108,10 +124,11 @@ li {
 /*-------------------*/
 
 #ohjelma-header {
+    margin-top: 20px;
     padding: 10px;
 }
 
-#ohjelma-container {
+.ohjelma-container {
     margin: 0px;
     width: 100vw;
     height: auto;

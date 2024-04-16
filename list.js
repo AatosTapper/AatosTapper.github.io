@@ -14,22 +14,43 @@ const songs = [
     [ "Body", "Mother Mother" ],
     [ "Njet Njet", "Eppu Normaali" ],
     [ "Katastrofin laajuus", "Lyyti" ],
-    [ "Satakielen valssi", "??? (sori en tiiä)" ],
+    [ "Satakielen valssi", "trad." ],
     [ "Pitch Perfect", "??? (sori en tiiä)" ],
     [ "Teenagers", "My Chemical Romance" ],
     [ "Yhteisbiisi", "Salainen artisti" ]
 ];
 
 const render_songs = () => {
-    const html_containter = document.getElementById("ohjelma-container");
-    const html_list = document.createElement("ul");
+    const html_containter1 = document.getElementById("container-1");
+    const html_list1 = document.createElement("ul");
+    const html_list2 = document.createElement("ul");
     
+    let index = 0;
     songs.forEach(item_text => {
+        if (index >= 8) return;
+
         const list_item = document.createElement("li");
         list_item.textContent = item_text[0] + " - " + item_text[1];
-        html_list.appendChild(list_item);
+        html_list1.appendChild(list_item);
+
+        index++;
     });
 
-    html_containter.appendChild(html_list);
+    index = 0;
+    songs.forEach(item_text => {
+        index++;
+        if (index < 9) return;
+
+        const list_item = document.createElement("li");
+        list_item.textContent = item_text[0] + " - " + item_text[1];
+        html_list2.appendChild(list_item);
+    });
+
+    const middle_part = document.createElement("h3");
+    middle_part.textContent = "Väliaika";
+
+    html_containter1.appendChild(html_list1);
+    html_containter1.appendChild(middle_part);
+    html_containter1.appendChild(html_list2);
 }
 render_songs();
