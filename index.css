@@ -31,7 +31,7 @@ p {
 }
 
 button {
-    margin: 30px;
+    margin: 20px;
     padding: 12.5px 30px;
     border: 0px;
     border-radius: 100px;
@@ -74,8 +74,8 @@ li {
     margin: 0px;
     width: fit-content;
     height: auto;
-    font-size: 16px;
-    padding-bottom: 10px;
+    font-size: 15px;
+    padding-bottom: 5px;
 }
 
 .main {
