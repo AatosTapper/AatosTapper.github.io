@@ -23,7 +23,7 @@ body {
     font-family: hand-written;
     color: #fbefee;
 
-    background-image: url("easter_image.webp");
+    background-image: url("Munajahti-tausta.png");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -42,8 +42,12 @@ body {
     width: 100%;
     height: 100%;
     
+    /*
     backdrop-filter: blur(8px) brightness(40%) saturate(130%);
     -webkit-backdrop-filter: blur(8px) brightness(40%) saturate(130%);
+    */
+    backdrop-filter: blur(10px) brightness(60%);
+    -webkit-backdrop-filter: blur(10px) brightness(60%);
     position: fixed;
     
 }
@@ -62,6 +66,10 @@ body {
     overflow-y: auto;
 }
 
+img {
+    filter: hue-rotate(320deg) brightness(110%) saturate(120%) drop-shadow(0 0 40px rgba(255, 191, 242, 0.368));
+    -webkit-filter: hue-rotate(320deg) brightness(110%) saturate(120%) drop-shadow(0 0 40px rgba(255, 191, 242, 0.368));
+}
 
 h1 {
     font-family: hand-written;
@@ -95,7 +103,7 @@ button {
     padding: 12.5px 30px;
     border: 0px;
     border-radius: 100px;
-    background-color: #2ba8fb;
+    background-color: #51b3d4;
     box-shadow: 0 0 20px rgba(177, 224, 255, 0.108);
     color: #fbefee;
     font-size: x-large;
@@ -163,16 +171,6 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-#main-header-musalaisten {
-    font-size: 40px;
-    padding: 0;
-}
-
-#main-header-munajahti {
-    font-size: 60px;
-    margin-bottom: 10px;
 }
 
 /*-------------------*/
