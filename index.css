@@ -217,6 +217,10 @@ li {
 /* warning_page.html */
 /*-------------------*/
 
+#warn-header {
+    padding-bottom: 8px;
+}
+
 .warn-text {
     font-size: 22px;
     width: 360px;
