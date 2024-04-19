@@ -1,9 +1,9 @@
 //      kappale - artisti
 const songs = [
     [ "Villieläin", "Ramses II" ],
-    [ "The Joke", "Brandi Carlile ???" ],
+    [ "The Joke", "Brandi Carlile" ],
     [ "Graceland Too", "Phoebe Bridgers" ],
-    [ "no body, no crime", "Taylor Swift" ],
+    [ "no body, no crime", "Taylor Swift feat. HAIM" ],
     [ "Kylmästä lämpimään", "Jukka Poika" ],
     [ "Kaipaava", "Rajaton" ],
     [ "Turn Loose the Mermaids", "Nightwish" ],
@@ -15,9 +15,8 @@ const songs = [
     [ "Njet Njet", "Eppu Normaali" ],
     [ "Katastrofin laajuus", "Lyyti" ],
     [ "Satakielen valssi", "trad." ],
-    [ "Pitch Perfect", "??? (sori en tiiä)" ],
-    [ "Teenagers", "My Chemical Romance" ],
-    [ "Yhteisbiisi", "Salainen artisti" ]
+    [ "Bellas Regionals", "Pitch Perfect" ],
+    [ "Teenagers", "My Chemical Romance" ]
 ];
 
 const render_songs = () => {
