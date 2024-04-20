@@ -135,7 +135,8 @@ const songs = [
         jutta,
         ainoliina,
         elsa,
-        stels
+        stels,
+        tinka
     ]],
     [ "Njet Njet", "Eppu Normaali", [
         helmi,
