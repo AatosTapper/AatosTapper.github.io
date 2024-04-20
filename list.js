@@ -132,7 +132,7 @@ const songs = [
         sade,
         ainosa,
         ilari,
-        helmi,
+        jutta,
         ainoliina,
         elsa,
         stels
@@ -150,7 +150,6 @@ const songs = [
         ainoliina,
         stella,
         aatos,
-        sade,
         viljo,
         sara
     ]],
