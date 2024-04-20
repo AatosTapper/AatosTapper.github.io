@@ -151,7 +151,8 @@ const songs = [
         stella,
         aatos,
         sade,
-        viljo
+        viljo,
+        sara
     ]],
     [ "Satakielen valssi", "trad.", [
         ainosi,
