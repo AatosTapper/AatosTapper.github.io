@@ -93,7 +93,6 @@ const songs = [
         saphir,
         vuotila,
         kohonen,
-        krista,
         ilari,
         stels,
         ainosa
