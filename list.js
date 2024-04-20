@@ -27,6 +27,7 @@ const ilari     = "Ilari Suortamo";
 const minttu    = "Minttu Pohjola";
 const ainoliina = "Aino-Liina Miettinen";
 const jeremias  = "Jeremias Tahkola";
+const joonia = "Joonia Marttio";
 
 // kappale - artisti - soittajat[]
 const songs = [
@@ -45,7 +46,8 @@ const songs = [
         pinja,
         miranda,
         ainoliina,
-        viljo
+        viljo,
+        joonia
     ]],
     [ "Graceland Too", "Phoebe Bridgers", [
         pinja,
