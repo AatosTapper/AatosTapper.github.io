@@ -34,12 +34,12 @@ const joonia    = "Joonia Marttio";
 const songs_aamu = [
     [ "Kiss Me", "Sixpence None The Richer", []],
     [ "Animal", "Sir Chloe", []],
-    [ "Nature boy", "Celine Dion", []],
+    [ "Nature boy", "Nat King Cole", []],
     [ "Paper bag", "Fiona Apple", []],
     [ "Get him back", "Olivia Rodrigo", []],
     [ "Kohta sataa", "Pete Parkkonen", []],
     [ "Champagne Problems X Illict Affairs", "Taylor Swift", []],
-    [ "Seksi vie ja takaisin tuo", "Nylon Beat", []],
+    [ "Seksi vie ja taksi tuo", "Nylon Beat", []],
     [ "Maasta taivaaseen", "pehmoaino", []],
     [ "Muistan sen niin", "Saimaa", []],
     [ "Heartbreaker", "Pat Benatar", []]
@@ -48,12 +48,12 @@ const songs_aamu = [
 const songs_ilta = [
     [ "Kiss Me", "Sixpence None The Richer", []],
     [ "*** Hotelli", "Josén Pimeä Puoli", []],
-    [ "Nature boy", "Celine Dion", []],
+    [ "Nature boy", "Nat King Cole", []],
     [ "Paper bag", "Fiona Apple", []],
     [ "Get him back", "Olivia Rodrigo", []],
     [ "Kohta sataa", "Pete Parkkonen", []],
     [ "Champagne Problems X Illict Affairs", "Taylor Swift", []],
-    [ "Seksi vie ja takaisin tuo", "Nylon Beat", []],
+    [ "Seksi vie ja taksi tuo", "Nylon Beat", []],
     [ "Maasta taivaaseen", "pehmoaino", []],
     [ "Muistan sen niin", "Saimaa", []],
     [ "And I hear you call", "Kingston Wall", []]
