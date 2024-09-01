@@ -4,16 +4,18 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Musalaisten munajahti</title>
+    <title>Musalaisten Syyskonsertti</title>
     <meta name='viewport' content='width=device-width, height=device-height, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
 </head>
 <body>
     <div class="backdrop-filter">
         <div class="main" id="main-page">
-            <img src="Text-Logo.png">
-            <button onclick="location.href = 'warning_page.html';">Ohjelma</button>
+            <h1>Syyskonsertin ohjelma</h1>
+            <button onclick="open_content_page('aamu');">Esitys 9:55</button>
+            <button onclick="open_content_page('ilta');">Esitys 13:25</button>
         </div>
     </div>
+    <script src="button_logic.js"></script>
 </body>
 </html>

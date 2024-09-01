@@ -30,155 +30,33 @@ const jeremias  = "Jeremias Tahkola";
 const joonia    = "Joonia Marttio";
 
 // kappale - artisti - soittajat[]
-const songs = [
-    [ "Villieläin", "Ramses II", [
-        helmi,
-        kohonen,
-        isabella,
-        jutta,
-        saphir,
-        aatos,
-        kalle, 
-        viljo
-    ]],
-    [ "The Joke", "Brandi Carlile", [
-        stella,
-        pinja,
-        miranda,
-        ainoliina,
-        viljo,
-        joonia
-    ]],
-    [ "Graceland Too", "Phoebe Bridgers", [
-        pinja,
-        elsa,
-        elena,
-        stels,
-        otso,
-        roosa,
-        ainosi,
-        miranda,
-        tinka
-    ]],
-    [ "no body, no crime", "Taylor Swift", [
-        sara,
-        stella,
-        elsa,
-        sade,
-        ainosa,
-        kohonen,
-        vuotila,
-        ainosi
-    ]],
-    [ "Kylmästä lämpimään", "Jukka Poika", [
-        vuotila,
-        kohonen,
-        helmi,
-        jutta,
-        aatos,
-        saphir,
-        krista,
-        isabella,
-        roosa,
-        stels
-    ]],
-    [ "Kaipaava", "Rajaton", [
-        merina,
-        sade,
-        tinka,
-        ainosi
-    ]],
-    [ "Turn Loose the Mermaids", "Nightwish", [
-        jutta,
-        elena,
-        sade,
-        saphir,
-        vuotila,
-        kohonen,
-        ilari,
-        stels,
-        ainosa
-    ]],
-    [ "Opi Tuntemaan Sienet", "Kuha", [
-        kalle,
-        ilari,
-        helmi,
-        sade,
-        minttu,
-        otso
-    ]],
-    [ "Fade Into You", "Mazzy Star", [
-        miranda,
-        stella,
-        otso
-    ]],
-    [ "Ignorance", "Paramore", [
-        sara,
-        ilari,
-        roosa,
-        viljo,
-        kalle,
-        minttu
-    ]],
-    [ "Valentine", "Laufey", [
-        elsa,
-        pinja,
-        ainoliina,
-        sade,
-        aatos,
-        kalle
-    ]],
-    [ "Body", "Mother Mother", [
-        ainosi,
-        sade,
-        ainosa,
-        ilari,
-        jutta,
-        ainoliina,
-        elsa,
-        stels,
-        tinka
-    ]],
-    [ "Njet Njet", "Eppu Normaali", [
-        helmi,
-        isabella,
-        kohonen,
-        aatos,
-        otso
-    ]],
-    [ "Katastrofin laajuus", "Lyyti", [
-        vuotila,
-        elsa,
-        ainoliina,
-        stella,
-        aatos,
-        viljo,
-        sara
-    ]],
-    [ "Satakielen valssi", "trad.", [
-        ainosi,
-        ainosa,
-        tinka
-    ]],
-    [ "Bellas Regionals", "Pitch Perfect", [
-        stels,
-        tinka,
-        roosa,
-        ainosi,
-        krista,
-        pinja,
-        helmi
-    ]],
-    [ "Teenagers", "My Chemical Romance", [
-        sara,
-        jeremias,
-        ilari,
-        aatos,
-        pinja,
-        otso,
-        ainosi,
-        jutta
-    ]]
+
+const songs_aamu = [
+    [ "Kiss Me", " ??? ", []],
+    [ "Animal", "Sir Chloe", []],
+    [ "Nature boy", " ??? ", []],
+    [ "Paper bag", "Fiona Apple", []],
+    [ "Get him back", "Olivia Rodrigo", []],
+    [ "Kohta sataa", "Pete Parkkonen", []],
+    [ "Champagne Problems X Illict Affairs", "Taylor Swift", []],
+    [ "Seksi vie ja takaisin tuo", "Nylon Beat", []],
+    [ "Maasta taivaaseen", "pehmoaino", []],
+    [ "Muistan sen niin", "Saimaa", []],
+    [ "Heartbreaker", "Pat Benatar", []]
+];
+
+const songs_ilta = [
+    [ "Kiss Me", " ??? ", []],
+    [ "*** Hotelli", "Josén Pimeä Puoli", []],
+    [ "Nature boy", " ??? ", []],
+    [ "Paper bag", "Fiona Apple", []],
+    [ "Get him back", "Olivia Rodrigo", []],
+    [ "Kohta sataa", "Pete Parkkonen", []],
+    [ "Champagne Problems X Illict Affairs", "Taylor Swift", []],
+    [ "Seksi vie ja takaisin tuo", "Nylon Beat", []],
+    [ "Maasta taivaaseen", "pehmoaino", []],
+    [ "Muistan sen niin", "Saimaa", []],
+    [ "And I hear you call", "Kingston Wall", []]
 ];
 
 const create_player_list = (player_list) => {
@@ -200,41 +78,25 @@ const create_player_list = (player_list) => {
 }
 
 const render_songs = () => {
+    const html_main = document.getElementById("main-container");
     const html_containter = document.getElementById("container-1");
     const html_list1 = document.createElement("ul");
-    const html_list2 = document.createElement("ul");
-    
-    let index = 0;
-    songs.forEach(item_text => {
-        if (index >= 8) return;
 
+    const selectedProgram = localStorage.getItem('selected_time');
+    const songs = selectedProgram === 'aamu' ? songs_aamu : songs_ilta;
+
+    songs.forEach(item_text => {
         const html_li = document.createElement("li");
         html_li.textContent = item_text[0] + " - " + item_text[1];
         html_list1.appendChild(html_li);
         html_list1.appendChild(create_player_list(item_text[2]));
-        
-        index++;
     });
 
-    // Goofy ahh systeemi väliaikaa varten
-    
-    index = 0;
-    songs.forEach(item_text => {
-        index++;
-        if (index < 9) return;
+    const html_h1 = document.createElement("h1");
+    html_h1.textContent = "Esitys " + (selectedProgram === 'aamu' ? "9:55" : "13:25");
+    html_h1.id = "ohjelma-header";
 
-        const html_li = document.createElement("li");
-        html_li.textContent = item_text[0] + " - " + item_text[1];
-        html_list2.appendChild(html_li);
-        
-        html_list2.appendChild(create_player_list(item_text[2]));
-    });
-
-    const middle_part = document.createElement("h3");
-    middle_part.textContent = "Väliaika";
-
+    html_main.insertBefore(html_h1, html_containter);
     html_containter.appendChild(html_list1);
-    html_containter.appendChild(middle_part);
-    html_containter.appendChild(html_list2);
 }
 render_songs();

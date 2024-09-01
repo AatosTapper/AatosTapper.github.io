@@ -15,10 +15,10 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    font-family: hand-written;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fbefee;
 
-    background-image: url("Munajahti-tausta.png");
+    background-image: url("Syyskonsertti-BG.webp");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -70,8 +70,9 @@ img {
 }
 
 h1 {
-    font-family: hand-written;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px;
+    margin-bottom: 10px;
     width: fit-content;
     height: auto;
 
@@ -79,7 +80,7 @@ h1 {
 }
 
 h3 {
-    font-family: hand-written;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px;
     padding: 16px;
     width: fit-content;
@@ -97,12 +98,13 @@ p {
 }
 
 button {
-    font-family: hand-written;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 240px;
     margin: 10px;
     padding: 12.5px 30px;
     border: 0px;
-    border-radius: 100px;
-    background-color: #51b3d4;
+    border-radius: 12.5px;
+    background-color: #5196ae;
     box-shadow: 0 0 20px rgba(177, 224, 255, 0.108);
     color: #fbefee;
     font-size: x-large;
