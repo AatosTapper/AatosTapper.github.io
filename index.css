@@ -19,7 +19,7 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fbefee;
 
-    background-image: url("Syyskonsertti-BG.webp");
+    background-image: url("Syyskonsertti-BG Medium.jpeg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -83,17 +83,6 @@ h1 {
     text-align: center;
     word-wrap: break-word;
     overflow-wrap: break-word;
-}
-
-h3 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0px;
-    padding: 16px;
-    width: fit-content;
-    height: auto;
-    font-size: x-large;
-
-    text-shadow: 0 0 20px rgba(177, 224, 255, 0.069);
 }
 
 p {

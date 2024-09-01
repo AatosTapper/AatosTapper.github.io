@@ -32,9 +32,9 @@ const joonia    = "Joonia Marttio";
 // kappale - artisti - soittajat[]
 
 const songs_aamu = [
-    [ "Kiss Me", " ??? ", []],
+    [ "Kiss Me", "Sixpence None The Richer", []],
     [ "Animal", "Sir Chloe", []],
-    [ "Nature boy", " ??? ", []],
+    [ "Nature boy", "Celine Dion", []],
     [ "Paper bag", "Fiona Apple", []],
     [ "Get him back", "Olivia Rodrigo", []],
     [ "Kohta sataa", "Pete Parkkonen", []],
@@ -46,9 +46,9 @@ const songs_aamu = [
 ];
 
 const songs_ilta = [
-    [ "Kiss Me", " ??? ", []],
+    [ "Kiss Me", "Sixpence None The Richer", []],
     [ "*** Hotelli", "Josén Pimeä Puoli", []],
-    [ "Nature boy", " ??? ", []],
+    [ "Nature boy", "Celine Dion", []],
     [ "Paper bag", "Fiona Apple", []],
     [ "Get him back", "Olivia Rodrigo", []],
     [ "Kohta sataa", "Pete Parkkonen", []],
