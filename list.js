@@ -1,62 +1,60 @@
-// ihmiset
-const helmi     = "Helmi Papinniemi";
-const kohonen   = "Peppi Kohonen";
-const isabella  = "Isabella Rinne";
-const jutta     = "Jutta Virsunen";
-const saphir    = "Saphir Piotelat";
-const aatos     = "Aatos Tapper";
-const kalle     = "Kalle Vilander";
-const viljo     = "Viljo Nurmeksela";
-const stella    = "Stella Lindström";
-const pinja     = "Pinja Moilanen";
-const miranda   = "Miranda Smith";
-const elsa      = "Elsa Silpola";
-const elena     = "Elena Kaasinen";
-const stels     = "Stella Rautiainen";
-const otso      = "Otso Tukiainen";
-const roosa     = "Roosa Koskenkorva";
-const ainosi    = "Aino Simula";
-const tinka     = "Tinka Väisänen";
-const sara      = "Sara Inkinen";
-const sade      = "Sade Kokkinen";
-const ainosa    = "Aino Saarela";
-const vuotila   = "Peppi Vuotila";
-const krista    = "Krista Keränen";
-const merina    = "Merina Lampela";
-const ilari     = "Ilari Suortamo";
-const minttu    = "Minttu Pohjola";
-const ainoliina = "Aino-Liina Miettinen";
-const jeremias  = "Jeremias Tahkola";
-const joonia    = "Joonia Marttio";
+const helmiinaJarvinen = "Helmiina Järvinen";
+const hiljaEskelinen = "Hilja Eskelinen";
+const aileVehvilainen = "Aile Vehviläinen";
+const piituMuhonen = "Piitu Muhonen";
+const samuelManninen = "Samuel Manninen";
+const konstaPenttinen = "Konsta Penttinen";
+const heidiNykanen = "Heidi Nykänen";
+const hilmaHurme = "Hilma Hurme";
+const aaronMuhiya = "Aaron Muhiya";
+const samuLamminpaa = "Samu Lamminpää";
+const ronjaVirtanen = "Ronja Virtanen";
+const samuelWahlstedt = "Samuel Wahlstedt";
+const aiviSalminen = "Aivi Salminen";
+const nooraKorhonen = "Noora Korhonen";
+const siiriNykanen = "Siiri Nykänen";
+const susannaSalminen = "Susanna Salminen";
+const siljaSalmia = "Silja Salmia";
+const elianHoltta = "Elian Hölttä";
+const marioPirinen = "Mario Pirinen";
+const oosaTourunen = "Oosa Tourunen";
+const kaisaKylmalahti = "Kaisa Kylmälahti";
+const lottaFalkenbach = "Lotta Falkenbach";
+const eeroPartanen = "Eero Partanen";
+const antonKivela = "Anton Kivelä";
+const hugoIkavalko = "Hugo Ikävalko";
+const celinaNiittynen = "Celina Niittynen";
+const milkaLoponen = "Milka Loponen";
+const antonLinja = "Anton Linja";
+const josias = "Josias Myllyaho";
+const oskariMiettinen = "Oskari Miettinen";
+const valtteriLaitinen = "Valtteri Laitinen";
+const viiviMattila = "Viivi Mattila";
+const danteMehtalainen = "Dante Mehtäläinen";
+const ilariSuortamo = "Ilari Suortamo";
 
-// kappale - artisti - soittajat[]
-
-const songs_aamu = [
-    [ "Kiss Me", "Sixpence None The Richer", []],
-    [ "Animal", "Sir Chloe", []],
-    [ "Nature boy", "Nat King Cole", []],
-    [ "Paper bag", "Fiona Apple", []],
-    [ "Get him back", "Olivia Rodrigo", []],
-    [ "Kohta sataa", "Pete Parkkonen", []],
-    [ "Champagne Problems X Illict Affairs", "Taylor Swift", []],
-    [ "Seksi vie ja taksi tuo", "Nylon Beat", []],
-    [ "Maasta taivaaseen", "pehmoaino", []],
-    [ "Muistan sen niin", "Saimaa", []],
-    [ "Heartbreaker", "Pat Benatar", []]
+// Songs
+const songs_a = [
+    ["Mummola", "PMMP", [helmiinaJarvinen, hiljaEskelinen, aileVehvilainen, piituMuhonen, samuelManninen, konstaPenttinen]],
+    ["Pettävällä Jäällä", "Suvi Teräsniska", [heidiNykanen, hilmaHurme, aaronMuhiya, samuLamminpaa, ronjaVirtanen, samuelWahlstedt]],
+    ["n/A", "Bring Me the Horizon", [aiviSalminen, nooraKorhonen, siiriNykanen, heidiNykanen, susannaSalminen, siljaSalmia]],
+    ["Army Dreamers", "Kate Bush", [siljaSalmia, elianHoltta, piituMuhonen, hiljaEskelinen, aileVehvilainen, marioPirinen, oosaTourunen]],
+    ["Sticker", "NCT 127", [marioPirinen, kaisaKylmalahti, lottaFalkenbach, nooraKorhonen, aiviSalminen, siiriNykanen, samuelWahlstedt]],
+    ["Clocks", "Coldplay", [eeroPartanen, helmiinaJarvinen, marioPirinen, oosaTourunen, konstaPenttinen, elianHoltta]],
+    ["Nuori & Tyhmä", "Jami Faltin", [aaronMuhiya, ronjaVirtanen, celinaNiittynen, heidiNykanen, antonKivela, hugoIkavalko]],
+    ["Wildflower", "Billie Eilish", [celinaNiittynen, kaisaKylmalahti, milkaLoponen, aileVehvilainen, ilariSuortamo, elianHoltta]],
+    ["Honey are you coming", "Måneskin", [lottaFalkenbach, oosaTourunen, helmiinaJarvinen, antonLinja, eeroPartanen, piituMuhonen]],
 ];
 
-const songs_ilta = [
-    [ "Kiss Me", "Sixpence None The Richer", []],
-    [ "*** Hotelli", "Josén Pimeä Puoli", []],
-    [ "Nature boy", "Nat King Cole", []],
-    [ "Paper bag", "Fiona Apple", []],
-    [ "Get him back", "Olivia Rodrigo", []],
-    [ "Kohta sataa", "Pete Parkkonen", []],
-    [ "Champagne Problems X Illict Affairs", "Taylor Swift", []],
-    [ "Seksi vie ja taksi tuo", "Nylon Beat", []],
-    [ "Maasta taivaaseen", "pehmoaino", []],
-    [ "Muistan sen niin", "Saimaa", []],
-    [ "And I hear you call", "Kingston Wall", []]
+const songs_b = [
+    ["Saatanan Zen", "Haloo Helsinki!", [lottaFalkenbach, samuLamminpaa, helmiinaJarvinen, aiviSalminen, oosaTourunen, hilmaHurme, nooraKorhonen, konstaPenttinen, susannaSalminen, piituMuhonen]],
+    ["Paparazzi", "Lady Gaga", [lottaFalkenbach, susannaSalminen, helmiinaJarvinen, samuLamminpaa, samuelWahlstedt, marioPirinen]],
+    ["Viel yhen kerran", "VIIVI", [marioPirinen, ronjaVirtanen, viiviMattila, susannaSalminen, samuelManninen, heidiNykanen]],
+    ["Sinua sinua rakastan", "Kaj Chydenius", [aiviSalminen, eeroPartanen, hilmaHurme, nooraKorhonen, samuLamminpaa, aileVehvilainen, milkaLoponen, hiljaEskelinen, oosaTourunen]],
+    ["Shine on me", "Kingston Wall", [antonLinja, josias, konstaPenttinen, samuelManninen, oskariMiettinen, valtteriLaitinen]],
+    ["Pissikset", "Lissut", [lottaFalkenbach, susannaSalminen, kaisaKylmalahti, hiljaEskelinen, oosaTourunen, piituMuhonen, aileVehvilainen, ilariSuortamo]],
+    ["Tähdet Meren yllä", "Reijo Taipale", [valtteriLaitinen, oskariMiettinen, konstaPenttinen, samuelManninen]],
+    ["Would?", "Alice In Chains", [danteMehtalainen, oskariMiettinen, eeroPartanen, konstaPenttinen, antonLinja, elianHoltta]],
 ];
 
 const create_player_list = (player_list) => {
@@ -83,7 +81,7 @@ const render_songs = () => {
     const html_list1 = document.createElement("ul");
 
     const selectedProgram = localStorage.getItem('selected_time');
-    const songs = selectedProgram === 'aamu' ? songs_aamu : songs_ilta;
+    const songs = selectedProgram === 'alku' ? songs_a : songs_b;
 
     songs.forEach(item_text => {
         const html_li = document.createElement("li");
@@ -93,7 +91,7 @@ const render_songs = () => {
     });
 
     const html_h1 = document.createElement("h1");
-    html_h1.textContent = "Esitys " + (selectedProgram === 'aamu' ? "9:55" : "13:25");
+    html_h1.textContent = (selectedProgram === 'alku' ? "Ensimmäinen " : "Toinen ") + "puolisko";
     html_h1.id = "ohjelma-header";
 
     html_main.insertBefore(html_h1, html_containter);
