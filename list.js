@@ -39,9 +39,9 @@ const songs_a = [
     ["Pettävällä Jäällä", "Suvi Teräsniska", [heidiNykanen, hilmaHurme, aaronMuhiya, samuLamminpaa, ronjaVirtanen, samuelWahlstedt]],
     ["n/A", "Bring Me the Horizon", [aiviSalminen, nooraKorhonen, siiriNykanen, heidiNykanen, susannaSalminen, siljaSalmia]],
     ["Army Dreamers", "Kate Bush", [siljaSalmia, elianHoltta, piituMuhonen, hiljaEskelinen, aileVehvilainen, marioPirinen, oosaTourunen]],
-    ["Sticker", "NCT 127", [marioPirinen, kaisaKylmalahti, lottaFalkenbach, nooraKorhonen, aiviSalminen, siiriNykanen, samuelWahlstedt]],
-    ["Clocks", "Coldplay", [eeroPartanen, helmiinaJarvinen, marioPirinen, oosaTourunen, konstaPenttinen, elianHoltta]],
     ["Nuori & Tyhmä", "Jami Faltin", [aaronMuhiya, ronjaVirtanen, celinaNiittynen, heidiNykanen, antonKivela, hugoIkavalko]],
+    ["Clocks", "Coldplay", [eeroPartanen, helmiinaJarvinen, marioPirinen, oosaTourunen, konstaPenttinen, elianHoltta]],
+    ["Sticker", "NCT 127", [marioPirinen, kaisaKylmalahti, lottaFalkenbach, nooraKorhonen, aiviSalminen, siiriNykanen, samuelWahlstedt]],
     ["Wildflower", "Billie Eilish", [celinaNiittynen, kaisaKylmalahti, milkaLoponen, aileVehvilainen, ilariSuortamo, elianHoltta]],
     ["Honey are you coming", "Måneskin", [lottaFalkenbach, oosaTourunen, helmiinaJarvinen, antonLinja, eeroPartanen, piituMuhonen]],
 ];
